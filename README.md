@@ -5,7 +5,7 @@ Benchmark for taint-flow bug repair.
 - candidates.csv: List of potential subjects that contain bug.
 - all-subjects: Downloaded subjects from candidates.csv.
 - bug-subjects: Subset of all-subjects that Doop can find bug in.
-
+- bug-srcs: Souce codes of bug subjects.
 
 ## How is this constructed?
 
