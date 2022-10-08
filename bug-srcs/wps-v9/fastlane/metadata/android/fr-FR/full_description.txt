@@ -1,0 +1,3 @@
+Cette application contrôle si une personne essaie d'utiliser le portable avec un NIP faux. S'il y a trop d'essais, le portable s'arrête immédiatement.
+
+Cette application a besoin de droit « root ». Il faut aussi enregistrer l'application comme administrateur. Ces mesures sont initiées automatiquement lors de la première utilisation.

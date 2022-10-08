@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="listArray">
+        <item>1er NIP faux</item>
+        <item>2ème NIP faux</item>
+        <item>3ème NIP faux</item>
+        <item>4ème NIP faux</item>
+        <item>5ème NIP faux</item>
+    </string-array>
+
+    <string-array name="listValues">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+    </string-array>
+</resources>

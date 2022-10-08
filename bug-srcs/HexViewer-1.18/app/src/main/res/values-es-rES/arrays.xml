@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="languages_entries">
+        <item>Inglés</item>
+        <item>Alemán</item>
+        <item>Español</item>
+        <item>Francés</item>
+        <item>Ruso</item>
+        <item>Chino</item>
+    </string-array>
+
+    <string-array name="screen_orientation_entries">
+        <item>Automático</item>
+        <item>Retrato</item>
+        <item>Paisaje</item>
+    </string-array>
+</resources>

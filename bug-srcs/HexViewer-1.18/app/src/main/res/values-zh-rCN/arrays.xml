@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="languages_entries">
+        <item>英语</item>
+        <item>德文</item>
+        <item>西班牙语</item>
+        <item>法语</item>
+        <item>俄语</item>
+        <item>中文</item>
+    </string-array>
+
+    <string-array name="screen_orientation_entries">
+        <item>自动的</item>
+        <item>纵向</item>
+        <item>横向</item>
+    </string-array>
+</resources>

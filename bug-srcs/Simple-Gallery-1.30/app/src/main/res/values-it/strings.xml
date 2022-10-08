@@ -1,0 +1,117 @@
+<resources>
+    <string name="app_name">Simple Gallery</string>
+    <string name="app_launcher_name">Gallery</string>
+    <string name="share_via">Condividi via</string>
+    <string name="no_permissions">Non c\'è molto da fare in una galleria senza l\'accesso all\'archiviazione</string>
+    <string name="delete">Elimina</string>
+    <string name="deleting">Eliminazione</string>
+    <string name="rename">Rename</string>
+    <string name="edit">Edit</string>
+    <string name="undo">Annulla</string>
+    <string name="share">Condividi</string>
+    <string name="properties">Proprietà</string>
+    <string name="rename_file">Rinomina file</string>
+    <string name="rename_folder">Rinomina cartella</string>
+    <string name="rename_file_error">Impossibile rinominare il file</string>
+    <string name="rename_folder_error">Impossibile rinominare la cartella</string>
+    <string name="rename_folder_empty">Il nome della cartella non deve essere vuoto</string>
+    <string name="rename_folder_ok">Cartella rinominata correttamente</string>
+    <string name="renaming_folder">Rinominazione cartella</string>
+    <string name="filename_cannot_be_empty">Il nome del file non deve essere vuoto</string>
+    <string name="filename_invalid_characters">Filename contains invalid characters</string>
+    <string name="extension">Estensione</string>
+    <string name="file_deleted">File eliminato</string>
+    <string name="open_camera">Apri fotocamera</string>
+    <string name="unknown_error">Riscontrato un errore sconosciuto</string>
+    <string name="sort_by">Sort by</string>
+    <string name="name">Name</string>
+    <string name="size">Size</string>
+    <string name="date">Date</string>
+    <string name="ascending">Ascending</string>
+    <string name="descending">Descending</string>
+    <string name="ok">OK</string>
+    <string name="cancel">Cancel</string>
+    <string name="open_with">Open with</string>
+    <string name="no_app_found">No valid app found</string>
+    <string name="hide_folder">Hide folder</string>
+    <string name="unhide_folder">Unhide folder</string>
+    <string name="hidden">(hidden)</string>
+    <string name="confirm_storage_access_title">Confirm external storage access</string>
+    <string name="confirm_storage_access_text">Please choose the root folder of the SD card to grant write access on the next screen</string>
+    <string name="save_as">Save as</string>
+    <string name="file_saved">File saved successfully</string>
+    <string name="copy">Copia</string>
+    <string name="move">Sposta</string>
+    <string name="copy_move">Copia/Sposta</string>
+    <string name="copy_item">Copia elemento</string>
+    <string name="copy_items">Copia elementi</string>
+    <string name="source">Fonte</string>
+    <string name="destination">Destinazione</string>
+    <string name="select_destination">Seleziona destinazione</string>
+    <string name="invalid_destination">Impossibile scrivere nella destinazione selezionata</string>
+    <string name="please_select_destination">Seleziona una destinazione</string>
+    <string name="source_and_destination_same">Source and destination cannot be the same</string>
+    <string name="copy_failed">Impossibile copiare i file</string>
+    <string name="copying">Copia in corso</string>
+    <string name="copying_success">Files copied successfully</string>
+    <string name="copying_failed">An error occurred during the copy</string>
+    <string name="already_exists">A file with that name already exists</string>
+
+    <plurals name="folders_deleted">
+        <item quantity="one">1 cartella eliminata</item>
+        <item quantity="other">%1$d cartelle eliminate</item>
+    </plurals>
+
+    <plurals name="files_deleted">
+        <item quantity="one">1 file eliminato</item>
+        <item quantity="other">%1$d file eliminati</item>
+    </plurals>
+
+    <!-- Editor -->
+    <string name="editor">Editor</string>
+    <string name="save">Save</string>
+    <string name="rotate">Rotate</string>
+    <string name="invalid_image_path">Invalid image path</string>
+    <string name="image_editing_failed">Image editing failed</string>
+    <string name="edit_image_with">Edit image with:</string>
+    <string name="no_editor_found">No image editor found</string>
+    <string name="unknown_file_location">Unknown file location</string>
+    <string name="error_saving_file">Could not overwrite the source file</string>
+
+    <!-- Set wallpaper -->
+    <string name="simple_wallpaper">Simple Wallpaper</string>
+    <string name="set_as_wallpaper">Set as Wallpaper</string>
+    <string name="set_as_wallpaper_failed">Setting as Wallpaper failed</string>
+    <string name="set_as_wallpaper_with">Set as wallpaper with:</string>
+    <string name="no_wallpaper_setter_found">No app capable of it has been found</string>
+    <string name="setting_wallpaper">Impostazione sfondo&#8230;</string>
+    <string name="wallpaper_set_successfully">Wallpaper set successfully</string>
+
+    <!-- About -->
+    <string name="about">Informazioni</string>
+    <string name="website">Altre semplici app e codici sorgenti in:\nhttp://simplemobiletools.com</string>
+    <string name="email_label">Invia la tua opinione o i tuoi suggerimenti a:</string>
+    <string name="third_party_licences_underlined"><u>Licenze di terze parti</u></string>
+    <string name="invite_friends_underlined"><u>Invite friends</u></string>
+    <string name="share_text">Hey, come check out %1$s at %2$s</string>
+    <string name="invite_via">Invite via</string>
+    <string name="rate_us_underlined"><u>Dacci un voto sul Play Store</u></string>
+    <string name="follow_us">Seguici:</string>
+    <string name="copyright">v %1$s\nCopyright © Simple Mobile Tools %2$d</string>
+
+    <!-- Settings -->
+    <string name="settings">Impostazioni</string>
+    <string name="dark_theme">Tema scuro</string>
+    <string name="same_sorting">Same sorting for files and folders</string>
+    <string name="show_hidden_folders">Show hidden folders</string>
+    <string name="autoplay_videos">Play videos automatically</string>
+    <string name="toggle_filename">Toggle filename visibility</string>
+
+    <!-- License -->
+    <string name="notice">Questa app usa le seguenti librerie di terze parti per semplificarmi la vita. Grazie.</string>
+    <string name="third_party_licences">Licenze di terze parti</string>
+    <string name="butterknife_title"><u>Butter Knife (view injector)</u></string>
+    <string name="photoview_title"><u>PhotoView (zoomable imageviews)</u></string>
+    <string name="glide_title"><u>Glide (image loading and caching)</u></string>
+    <string name="cropper_title"><u>Android Image Cropper</u></string>
+</resources>

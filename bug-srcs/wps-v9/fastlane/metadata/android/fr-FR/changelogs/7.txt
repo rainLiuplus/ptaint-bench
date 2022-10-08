@@ -1,0 +1,3 @@
+## 7
+
+  * Correction d'un bug sur les appareils avec un lecteur d'empreintes digitales.

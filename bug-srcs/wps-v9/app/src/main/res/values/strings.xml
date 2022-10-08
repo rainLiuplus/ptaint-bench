@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Wrong PIN Shutdown</string>
+    <string name="appIntro">This app monitors failed login attempts. If too many attempts in a row are detected, the device is immediately shut down.\nN.B. A PIN which is too short (i.e. three digits or less), is considered as invalid and not as wrong. This will not lead to shutdown.</string>
+    <string name="adminExplanation">In order to count the number of failed login attempts, you have to register this app as a device administrator.</string>
+    <string name="settingDialog">How many failed login attempts before shutdown?</string>
+    <string name="settingTitle">Setting</string>
+    <string name="settingAdvanced">Advanced setting</string>
+    <string name="settingAdvancedDialog">Edit the shutdown command</string>
+    <string name="settingShutdownCMD">Shutdown command</string>
+    <string name="shutdownHOWTO">Here you can specify which command is executed as root to shutdown the device.\nThe default value is \'reboot -p\'.\nAnother option might be \'svc power shutdown\'.</string>
+    <string name="shutdownCMD" translatable="false">reboot -p</string>
+    <string name="lastWrong"> Last wrong PIN: \n</string>
+    <string name="lastShutdown"> Last shutdown due to wrong PIN: \n</string>
+</resources>

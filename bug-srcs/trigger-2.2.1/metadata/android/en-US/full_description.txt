@@ -1,0 +1,12 @@
+Open or close doors, ring the door bell and show the door state.
+Supported are HTTPS/SSH/MQTT and Bluetooth.
+
+Features:
+
+* Manage multiple doors
+* QR-Code support
+* Door setup backup
+* Custom door state pictures
+* Pin TLS certificates and set SSH keys
+* Auto-select door setup by WiFi SSID
+* Display returned text from door

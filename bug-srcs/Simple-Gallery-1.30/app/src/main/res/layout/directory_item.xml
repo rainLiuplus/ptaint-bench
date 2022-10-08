@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/dir_holder"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <include layout="@layout/directory_tmb"/>
+
+    <RelativeLayout
+        android:id="@+id/dir_shadow_holder"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/tmb_shadow_height"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/gradient_background"
+        android:gravity="bottom"
+        android:paddingBottom="@dimen/small_padding"
+        android:paddingLeft="@dimen/medium_padding"
+        android:paddingRight="@dimen/medium_padding"
+        android:paddingTop="@dimen/small_padding">
+
+        <TextView
+            android:id="@+id/dir_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="@dimen/small_padding"
+            android:textColor="@android:color/white"/>
+
+        <TextView
+            android:id="@+id/photo_cnt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/dir_name"
+            android:textColor="@android:color/white"/>
+
+    </RelativeLayout>
+</RelativeLayout>

@@ -1,0 +1,6 @@
+## 7
+
+  * Es gab einen Fehler auf Geräten mit Fingerabdrucksensor.
+  Wenn man mit dem Fingerabdruck entsperrt, dann wurde der Zähler der falschen PIN nicht zurückgesetzt.
+  Dieser Fehler wurde behoben.
+  Allerdings werden falsche Fingerabdrücke nicht registriert.

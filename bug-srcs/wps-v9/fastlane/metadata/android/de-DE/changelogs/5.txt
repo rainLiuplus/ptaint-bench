@@ -1,0 +1,3 @@
+## 5
+  * Bildschirmfotos und Metadaten hinzugefügt
+  * Zeige Abschaltbefehl in den Einstellungen an

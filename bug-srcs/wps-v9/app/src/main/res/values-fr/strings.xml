@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Arrêt NIP faux</string>
+    <string name="appIntro">Cette application contrôle si une personne essaie d\'utiliser le portable avec un NIP faux. S\'il y a trop d\'essais, le portable s\'arrête immédiatement.\nNB : Si le NIP est trop court (c\'est à dire moins de quatre chiffres) il est considéré comme invalide mais pas comme faux. Dans ce cas le portable ne s\'arrête pas.</string>
+    <string name="adminExplanation">Pour obtenir le nombre de NIP faux, il faut enregistrer cette application comme administrateur.</string>
+    <string name="settingDialog">Après combien de NIP faux le portable doit s\'arrêter ?</string>
+    <string name="settingTitle">Paramètres</string>
+    <string name="settingAdvanced">Paramètres avancés</string>
+    <string name="settingAdvancedDialog">Changez la commande pour arrêter le portable</string>
+    <string name="settingShutdownCMD">Commande pour arrêter le portable</string>
+    <string name="shutdownHOWTO">Ici on peut changer la commande pour arrêter.\nLa commande standard est \'reboot -p\'.\nUne autre possibilité : \'svc power shutdown\'.</string>
+    <string name="lastWrong" >Dernier NIP faux : \n</string>
+    <string name="lastShutdown" >Dernier arrêt dû à un NIP faux : \n</string>
+</resources>

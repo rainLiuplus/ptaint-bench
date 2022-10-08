@@ -1,0 +1,3 @@
+Diese einfache App überwacht die Anzahl der fehlgeschlagenen Anmeldeversuche. Wenn eine gewisse Anzahl an Versuchen überschritten wird, wird das Gerät automatisch ausgeschaltet.
+
+Diese App funktioniert nur mit Root-Zugriff. Sie müssen der App Rootrechte erteilen und sie als Geräteadministrator registrieren. Diese Schritte werden automatisch bei der ersten Verwendung eingeleitet.

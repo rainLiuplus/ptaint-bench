@@ -1,0 +1,3 @@
+## 8
+
+  * La traduction française a été améliorée.

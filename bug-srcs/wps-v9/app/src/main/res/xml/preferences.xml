@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <ListPreference
+        android:defaultValue="2"
+        android:entries="@array/listArray"
+        android:entryValues="@array/listValues"
+        android:key="max_tries"
+        android:summary="@string/settingDialog"
+        android:title="@string/settingTitle" />
+    <CheckBoxPreference
+        android:id="@+id/checkBox"
+        android:defaultValue="false"
+        android:key="advanced"
+        android:summary="@string/settingAdvancedDialog"
+        android:title="@string/settingAdvanced" />
+    <EditTextPreference
+        android:defaultValue="@string/shutdownCMD"
+        android:key="shutdown_cmd"
+        android:dependency="advanced"
+        android:title="@string/settingShutdownCMD"
+        android:dialogMessage="@string/shutdownHOWTO" />
+</PreferenceScreen>

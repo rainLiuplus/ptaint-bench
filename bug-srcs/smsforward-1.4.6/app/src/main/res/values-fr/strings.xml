@@ -1,0 +1,42 @@
+<resources>
+
+    <string name="menu_info_contact">Gérer les contacts</string>
+
+    <string name="redirectlist_info_delete_title">Supprimer la redirection</string>
+    <string name="redirectlist_info_delete_content">Êtes vous sûr de vouloir supprimer cette redirection ?</string>
+    <string name="redirectlist_empty_redirection_list">Liste de redirection vide</string>
+    <string name="redirectlist_redirection_deactivated">Redirection désactivée</string>
+    <string name="redirectlist_redirection_activated">Redirection activée</string>
+
+    <string name="notification_info_sms_received_from">[%1$s]: %2$s</string>
+    <string name="notification_info_sms_now_redirected">Les SMS sont actuellement redirigés.</string>
+
+    <string name="addredirect_info_automatically_redirect_sms_from">Transférer automatiquement les SMS en provenance de</string>
+    <string name="addredirect_info_to">vers</string>
+    <string name="addredirect_info_add">Ajouter</string>
+    <string name="addredirect_info_sms_redirect_confirmation">SMS redirigé de %1$s vers %2$s</string>
+    <string name="addredirect_error_source_and_redirection_must_be_different">La source et la destination doivent être différentes</string>
+    <string name="addredirect_error_empty_source">Source vide</string>
+    <string name="addredirect_error_invalid_source">Source invalide</string>
+    <string name="addredirect_error_empty_destination">Destination vide</string>
+    <string name="addredirect_error_invalid_destination">Destination invalide</string>
+
+    <string name="about_info_version">Version %s</string>
+    <string name="about_info_license">Sous license GNU GPLv3</string>
+    <string name="about_info_app_description">SMS Forward est une application qui vous permet de transférer automatiquement des SMS</string>
+    <string name="about_info_title">À propos</string>
+    <string name="about_FAQ_title">FAQ</string>
+    <string name="about_question1">Quel est le but de cette application ?</string>
+    <string name="about_answer1">Cette application a été développée pour contourner des limitations régionales. Par exemple, si un service dans un pays A requiert un numéro de téléphone de ce même pays, mais que vous avez un numéro de téléphone du pays B, vous pouvez demander à un ami qui a un numéro du pays A d\'installer cette application pour vous rediriger les SMS et vous pourrez les recevoir.\nToutefois, comme cette application est assez basique, vous pouvez y trouver d\'autres usages.</string>
+    <string name="about_question2">Dois-je faire attention à quelque chose ?</string>
+    <string name="about_answer2">Oui :\n- Si vous êtes sur le point de demander à quelqu\'un d\'installer cette application, notez que vous devez faire confiance à cette personne. Elle sera en mesure de lire les messages.\n- Il est possible de créer des boucles de redirection entre plusieurs appareils. Il est hautement recommendé d\'éviter cela malgré les sécurités implémentées dans Android.\nCe programme est distribué dans l’espoir qu’il vous sera utile, mais SANS AUCUNE GARANTIE : sans même la garantie implicite de COMMERCIALISABILITÉ ni d’ADÉQUATION À UN OBJECTIF PARTICULIER. Consultez la Licence Générale Publique GNU pour plus de détails.</string>
+    <string name="about_question3">Est-il possible de masquer la notification indiquant que la redirection est active dans la barre d\'état ?</string>
+    <string name="about_answer3">Oui, dans les versions récentes d\'Android (9 et ultérieures), vous pouvez rester appuyé sur la notification pour accéder à l\'option \"masquer la notification\".</string>
+    <string name="about_question4">Je ne veux plus recevoir de notification quand je reçoit un SMS et qu\'il est redirigé. Comment désactiver les notifications pour certains contact uniquement?</string>
+    <string name="about_answer4">Tout dépend de votre application SMS. Avec Silence ou Signal, par exemple, vous pouvez désactiver les notifications dans les paramètres de la conversation.</string>
+
+    <string name="description_empty_illustration">Liste vide</string>
+    <string name="description_right_arrow">Flêche vers la droite</string>
+    <string name="description_delete_icon">Supprimer</string>
+    <string name="description_send_sms_illustration">Envoyer un SMS</string>
+</resources>

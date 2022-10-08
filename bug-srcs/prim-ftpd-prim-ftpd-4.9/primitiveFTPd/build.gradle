@@ -1,0 +1,81 @@
+buildscript {
+    repositories {
+        jcenter()
+    }
+
+    dependencies {
+        classpath 'com.android.tools.build:gradle:2.3.3'
+    }
+}
+
+repositories {
+    jcenter()
+}
+
+apply plugin: 'com.android.application'
+
+
+android {
+    compileSdkVersion 25
+    buildToolsVersion '25.0.2'
+
+    defaultConfig {
+        applicationId "org.primftpd"
+        minSdkVersion 15
+        targetSdkVersion 25
+        versionCode 24
+        versionName "4.9"
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard.cfg'
+        }
+    }
+
+    sourceSets {
+        main {
+            manifest {
+                srcFile 'AndroidManifest.xml'
+            }
+
+            java {
+                srcDir 'src'
+            }
+            res {
+                srcDir 'res'
+            }
+        }
+    }
+
+    packagingOptions {
+        // required due to jars
+        exclude 'META-INF/LICENSE'
+        exclude 'META-INF/NOTICE'
+        exclude 'META-INF/DEPENDENCIES'
+        exclude 'META-INF/BCKEY.SF'
+        exclude 'META-INF/BCKEY.DSA'
+    }
+
+    lintOptions {
+        // we cannot be sure that all translations are present
+        abortOnError false
+    }
+}
+
+configurations {
+    compile.exclude group: 'org.slf4j', module: 'slf4j-api'
+    compile.exclude group: 'org.apache.ftpserver', module: 'ftplet-api'
+}
+
+dependencies {
+    // print dependency tree:
+    // ./gradlew primitiveFTPd:dependencies --configuration compile
+    compile project(':pftpd-pojo-lib')
+    compile fileTree(dir: 'libs', include: ['*.jar'])
+    compile 'org.apache.ftpserver:ftpserver-core:1.0.6'
+    compile 'org.apache.sshd:sshd-core:0.13.0' // TODO upgrade sshd
+    compile 'org.greenrobot:eventbus:3.0.0'
+    compile 'com.nononsenseapps:filepicker:4.0.0'
+}

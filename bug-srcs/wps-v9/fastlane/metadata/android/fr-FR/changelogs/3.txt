@@ -1,0 +1,3 @@
+## 3
+  * Nouveau : on peut changer le command d'arrêt
+  * Améliorer la documentation

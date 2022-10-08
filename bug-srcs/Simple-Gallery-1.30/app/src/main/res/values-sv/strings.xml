@@ -1,0 +1,117 @@
+<resources>
+    <string name="app_name">Simple Gallery</string>
+    <string name="app_launcher_name">Gallery</string>
+    <string name="share_via">Dela via</string>
+    <string name="no_permissions">Inte mycket att göra i ett galleri om jag inte kommer åt lagringsutrymmet</string>
+    <string name="delete">Ta bort</string>
+    <string name="deleting">Tar bort</string>
+    <string name="rename">Rename</string>
+    <string name="edit">Edit</string>
+    <string name="undo">Ångra</string>
+    <string name="share">Dela</string>
+    <string name="properties">Properties</string>
+    <string name="rename_file">Döp om fil</string>
+    <string name="rename_folder">Döp om mapp</string>
+    <string name="rename_file_error">Det gick inte att döpa om filen</string>
+    <string name="rename_folder_error">Det gick inte att döpa om mappen</string>
+    <string name="rename_folder_empty">Du måste ange ett mappnamn</string>
+    <string name="rename_folder_ok">Mappen döptes om</string>
+    <string name="renaming_folder">Döper om mappen</string>
+    <string name="filename_cannot_be_empty">Du måste ange ett filnamn</string>
+    <string name="filename_invalid_characters">Filename contains invalid characters</string>
+    <string name="extension">Filändelse</string>
+    <string name="file_deleted">Fil borttagen</string>
+    <string name="open_camera">Starta kameran</string>
+    <string name="unknown_error">Ett okänt fel har uppstått</string>
+    <string name="sort_by">Sort by</string>
+    <string name="name">Name</string>
+    <string name="size">Size</string>
+    <string name="date">Date</string>
+    <string name="ascending">Ascending</string>
+    <string name="descending">Descending</string>
+    <string name="ok">OK</string>
+    <string name="cancel">Cancel</string>
+    <string name="open_with">Open with</string>
+    <string name="no_app_found">No valid app found</string>
+    <string name="hide_folder">Hide folder</string>
+    <string name="unhide_folder">Unhide folder</string>
+    <string name="hidden">(hidden)</string>
+    <string name="confirm_storage_access_title">Confirm external storage access</string>
+    <string name="confirm_storage_access_text">Please choose the root folder of the SD card to grant write access on the next screen</string>
+    <string name="save_as">Save as</string>
+    <string name="file_saved">File saved successfully</string>
+    <string name="copy">Kopiera</string>
+    <string name="move">Flytta</string>
+    <string name="copy_move">Copy/Move to</string>
+    <string name="copy_item">Kopiera objekt</string>
+    <string name="copy_items">Kopiera objekt</string>
+    <string name="source">Källa</string>
+    <string name="destination">Mål</string>
+    <string name="select_destination">Välj mål</string>
+    <string name="invalid_destination">Det gick inte att skriva till målet</string>
+    <string name="please_select_destination">Please select a destination</string>
+    <string name="source_and_destination_same">Source and destination cannot be the same</string>
+    <string name="copy_failed">Kunde inte kopiera filen</string>
+    <string name="copying">Kopierar</string>
+    <string name="copying_success">Files copied successfully</string>
+    <string name="copying_failed">An error occurred during the copy</string>
+    <string name="already_exists">A file with that name already exists</string>
+
+    <plurals name="folders_deleted">
+        <item quantity="one">1 mapp borttagen</item>
+        <item quantity="other">%1$d mappar borttagna</item>
+    </plurals>
+
+    <plurals name="files_deleted">
+        <item quantity="one">1 fil borttagen</item>
+        <item quantity="other">%1$d filer borttagna</item>
+    </plurals>
+
+    <!-- Editor -->
+    <string name="editor">Editor</string>
+    <string name="save">Save</string>
+    <string name="rotate">Rotate</string>
+    <string name="invalid_image_path">Invalid image path</string>
+    <string name="image_editing_failed">Image editing failed</string>
+    <string name="edit_image_with">Edit image with:</string>
+    <string name="no_editor_found">No image editor found</string>
+    <string name="unknown_file_location">Unknown file location</string>
+    <string name="error_saving_file">Could not overwrite the source file</string>
+
+    <!-- Set wallpaper -->
+    <string name="simple_wallpaper">Simple Wallpaper</string>
+    <string name="set_as_wallpaper">Set as Wallpaper</string>
+    <string name="set_as_wallpaper_failed">Setting as Wallpaper failed</string>
+    <string name="set_as_wallpaper_with">Set as wallpaper with:</string>
+    <string name="no_wallpaper_setter_found">No app capable of it has been found</string>
+    <string name="setting_wallpaper">Inställningar för bakgrundsbild&#8230;</string>
+    <string name="wallpaper_set_successfully">Wallpaper set successfully</string>
+
+    <!-- About -->
+    <string name="about">Om</string>
+    <string name="website">Fler enkla appar och källkod här:\nhttp://simplemobiletools.com</string>
+    <string name="email_label">Skicka feedback och förslag till:</string>
+    <string name="third_party_licences_underlined"><u>Tredjepartslicenser</u></string>
+    <string name="invite_friends_underlined"><u>Invite friends</u></string>
+    <string name="share_text">Hey, come check out %1$s at %2$s</string>
+    <string name="invite_via">Invite via</string>
+    <string name="rate_us_underlined"><u>Betygsätt oss i Play Butiken</u></string>
+    <string name="follow_us">Följ oss:</string>
+    <string name="copyright">v %1$s\nCopyright © Simple Mobile Tools %2$d</string>
+
+    <!-- Settings -->
+    <string name="settings">Inställningar</string>
+    <string name="dark_theme">Mörkt tema</string>
+    <string name="same_sorting">Same sorting for files and folders</string>
+    <string name="show_hidden_folders">Show hidden folders</string>
+    <string name="autoplay_videos">Play videos automatically</string>
+    <string name="toggle_filename">Toggle filename visibility</string>
+
+    <!-- License -->
+    <string name="notice">Denna app använder följande tredjepartsbibliotek för att göra mitt liv enklare. Tack.</string>
+    <string name="third_party_licences">Tredjepartslicenser</string>
+    <string name="butterknife_title"><u>Butter Knife (view injector)</u></string>
+    <string name="photoview_title"><u>PhotoView (zoomable imageviews)</u></string>
+    <string name="glide_title"><u>Glide (image loading and caching)</u></string>
+    <string name="cropper_title"><u>Android Image Cropper</u></string>
+</resources>

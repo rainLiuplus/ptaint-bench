@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="com.genonbeta.TrebleShot">
+
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW"/>
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.VIBRATE"/>
+    <uses-permission android:name="android.permission.WAKE_LOCK"/>
+    <uses-permission android:name="android.permission.WRITE_SETTINGS"/>
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+
+    <application
+        android:allowBackup="true"
+        android:fullBackupContent="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/text_appName"
+        android:theme="@style/AppTheme">
+
+        <activity
+            android:name=".activity.HomeActivity"
+            android:label="@string/text_appName"
+            android:launchMode="singleTask"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="genonbeta.intent.action.OPEN_RECEIVED_FILES"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activity.ShareActivity"
+            android:label="@string/text_appName"
+            android:theme="@style/AppTheme.NoActionBar.GreyStatusBar">
+            <intent-filter>
+                <action android:name="genonbeta.intent.action.TREBLESHOT_SEND_TEXT"/>
+                <action android:name="android.intent.action.SEND"/>
+                <action android:name="android.intent.action.SEND_MULTIPLE"/>
+                <action android:name="genonbeta.intent.action.TREBLESHOT_SEND"/>
+                <action android:name="genonbeta.intent.action.TREBLESHOT_SEND_MULTIPLE"/>
+
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:mimeType="*/*"/>
+            </intent-filter>
+            <meta-data
+                android:name="android.service.chooser.chooser_target_service"
+                android:value=".service.DeviceChooserService"/>
+        </activity>
+
+        <activity
+            android:name=".activity.FilePickerActivity"
+            android:label="@string/text_fileExplorer"/>
+
+        <activity
+            android:name=".activity.TransactionActivity"
+            android:label="@string/text_transactionViewer"
+            android:theme="@style/AppTheme.NoActionBar"/>
+
+        <activity
+            android:name=".activity.PreferencesActivity"
+            android:label="@string/text_preferences"/>
+
+        <activity
+            android:name=".activity.TextEditorActivity"
+            android:label="@string/text_textEditor"/>
+
+        <activity
+            android:name=".activity.StoragePathChangeActivity"
+            android:theme="@style/Base.Theme.AppCompat.Dialog">
+            <intent-filter>
+                <action android:name="com.genonbeta.intent.action.UPDATE_STORAGE_PATH"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+
+        <service
+            android:name=".service.CommunicationService"
+            android:enabled="true"
+            android:label="@string/text_communicationService"
+            android:process=":transfer"/>
+
+        <service
+            android:name=".service.DeviceChooserService"
+            android:label="@string/text_chooserTargetService"
+            android:permission="android.permission.BIND_CHOOSER_TARGET_SERVICE">
+            <intent-filter>
+                <action android:name="android.service.chooser.ChooserTargetService"/>
+            </intent-filter>
+        </service>
+
+        <service
+            android:name=".service.DeviceScannerService">
+            <intent-filter>
+                <action android:name="genonbeta.intent.action.SCAN_DEVICES"/>
+                <action android:name="genonbeta.intent.action.ADD_IP"/>
+
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </service>
+
+        <service android:name=".service.WorkerService"
+                 android:label="@string/text_workerService" />
+
+        <receiver
+            android:name=".receiver.NetworkStatusReceiver"
+            android:process=":transfer">
+            <intent-filter>
+                <action android:name="android.net.wifi.WIFI_STATE_CHANGED"/>
+                <action android:name="android.net.wifi.WIFI_AP_STATE_CHANGED"/>
+                <action android:name="android.net.wifi.STATE_CHANGE"/>
+                <action android:name="android.net.wifi.p2p.CONNECTION_STATE_CHANGE"/>
+            </intent-filter>
+        </receiver>
+
+        <receiver
+            android:name=".receiver.DialogEventReceiver"
+            android:process=":transfer"/>
+
+        <service
+            android:name=".service.CommunicationToggleTile"
+            android:icon="@drawable/ic_whatshot_white_24dp"
+            android:label="@string/text_shareFiles"
+            android:permission="android.permission.BIND_QUICK_SETTINGS_TILE"
+            android:process=":transfer">
+            <intent-filter>
+                <action android:name="android.service.quicksettings.action.QS_TILE"/>
+            </intent-filter>
+        </service>
+
+        <provider
+            android:name="android.support.v4.content.FileProvider"
+            android:authorities="${applicationId}.provider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/provider_paths"/>
+        </provider>
+    </application>
+</manifest>

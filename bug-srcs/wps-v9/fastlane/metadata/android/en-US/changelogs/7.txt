@@ -1,0 +1,6 @@
+## 7
+
+  * There was a bug on devices with a fingerprint reader.
+  Unlocking the phone by fingerprint did not reset the wrong PIN counter.
+  This bug is now fixed.
+  However, note that attempts to unlock the phone with a wrong fingerprint will not be registered.

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.trigger">
+
+    <!-- Certificate/Key/Backup Import/Export -->
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <!-- Communicate with door -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <!-- Check if communication is possible -->
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <!-- Scan Qr-Code -->
+    <uses-permission android:name="android.permission.CAMERA"/>
+    <!-- For MQTT -->
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:usesCleartextTraffic="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".SetupActivity"
+            android:label="@string/action_edit"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".AboutActivity"
+            android:label="@string/action_about"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".QRShowActivity"
+            android:exported="true"
+            android:label="@string/action_export"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".QRScanActivity"
+            android:label="@string/action_import"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".BackupActivity"
+            android:label="@string/action_backup"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ssh.KeyPairActivity"
+            android:label="Manage SSH Key Pair"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name=".ssh.KeyPairActivity" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".https.CertificateActivity"
+            android:label="Manage TLS Certificate"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name=".https.CertificateActivity" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ImageActivity"
+            android:label="Select Image"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name=".ImageActivity" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Wrong PIN Shutdown</string>
+    <string name="appIntro">Diese App überwacht fehlgeschlagene Anmeldeversuche. Wenn zu viele Versuche am Stück festgestellt werden, dann wird das Gerät unverzüglich abgeschaltet.\nNB: Ein zu kurzer PIN (d.h. weniger als 3 Ziffern) ist ungültig aber nicht falsch. Ein solche Eingabe führt nicht zum Abschalten.</string>
+    <string name="adminExplanation">Um die Anzahl der fehlgeschlagenen Anmeldeversuche zu zählen, muss diese App als Geräteadministrator registriert werden.</string>
+    <string name="settingDialog">Nach wie vielen fehlgeschlagenen Anmeldeversuchen soll das Gerät abgeschaltet werden?</string>
+    <string name="settingTitle">Einstellung</string>
+    <string name="settingAdvanced">Einstellung für Experten</string>
+    <string name="settingAdvancedDialog">Den Befehl zum Abschalten verändern</string>
+    <string name="settingShutdownCMD">Befehl zum Abschalten</string>
+    <string name="shutdownHOWTO">Hier kann der Abschaltbefehl festegelegt werden.\nDie Standardeinstellung lautet \'reboot -p\'.\nEine andere Möglichkeit ist eventuell \'svc power shutdown\'.</string>
+    <string name="lastWrong" >Letzter falscher PIN: \n</string>
+    <string name="lastShutdown" >Letztes Abschalten aufgrund einer falschen PIN: \n</string>
+</resources>

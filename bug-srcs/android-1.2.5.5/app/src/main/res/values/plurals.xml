@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="ques_deleteFile">
+        <item quantity="one">Do you want to delete that file?</item>
+        <item quantity="other">Do you want to delete %d files?</item>
+    </plurals>
+    <plurals name="text_fileReceiveCompletedSummary">
+        <item quantity="one">A file has been received</item>
+        <item quantity="other">%d files have been received</item>
+    </plurals>
+    <plurals name="text_itemSelected">
+        <item quantity="one">One file is selected</item>
+        <item quantity="other">%d files are selected</item>
+    </plurals>
+    <plurals name="text_removeQueueSummary">
+        <item quantity="one">A pending transfer will be removed</item>
+        <item quantity="other">%d pending transfers will be removed</item>
+    </plurals>
+    <plurals name="text_availableConnections">
+        <item quantity="one">One connection</item>
+        <item quantity="other">%d connections</item>
+    </plurals>
+    <plurals name="ques_receiveMultipleFiles">
+        <item quantity="one">Receive this file?</item>
+        <item quantity="other">Receive %d files?</item>
+    </plurals>
+    <plurals name="text_files">
+        <item quantity="one">%d file</item>
+        <item quantity="other">%d files</item>
+    </plurals>
+    <plurals name="text_secondsAgo">
+        <item quantity="one">A second ago</item>
+        <item quantity="other">%d seconds ago</item>
+    </plurals>
+    <plurals name="text_minutesAgo">
+        <item quantity="one">A minute ago</item>
+        <item quantity="other">%d minutes ago</item>
+    </plurals>
+    <plurals name="text_fileDeletionCompleted">
+        <item quantity="one">A file has been deleted</item>
+        <item quantity="other">%d files have been deleted</item>
+    </plurals>
+</resources>

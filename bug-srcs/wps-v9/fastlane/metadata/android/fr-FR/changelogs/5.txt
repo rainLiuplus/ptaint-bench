@@ -1,0 +1,3 @@
+## 5
+  * Ajouter images et données meta
+  * Répéte le command d'arrêté dans les paramètres

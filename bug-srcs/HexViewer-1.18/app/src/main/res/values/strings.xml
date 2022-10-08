@@ -1,0 +1,130 @@
+<resources>
+    <string name="app_name" translatable="false">HexViewer</string>
+    <string name="search_title">Search</string>
+    <string name="search_hint">Search&#8230;</string>
+    <string name="action_open_title">Open</string>
+    <string name="action_plain_text_title">Plain text</string>
+    <string name="action_line_numbers_title">Line numbers</string>
+    <string name="action_save_title">Save</string>
+    <string name="action_save_as_title">Save As &#8230;</string>
+    <string name="action_close_title">Close</string>
+    <string name="action_settings_title">Settings</string>
+    <string name="action_recently_open_title">Recently opened</string>
+    <string name="action_go_to_address">Go to address&#8230;</string>
+    <string name="action_go_to_line">Go to line&#8230;</string>
+    <string name="loading">Loading&#8230;</string>
+    <string name="saving">Saving&#8230;</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="cancel">Cancel</string>
+    <string name="on_double_back_exit_text">Press once again to exit!</string>
+    <string name="update">Update</string>
+    <string name="update_hint_hex">Text</string>
+    <string name="update_hint_plain">Plain text</string>
+    <string name="error_not_supported_in_plain_text">Operation not supported during plain text display</string>
+    <string name="error_filename">Invalid file name!</string>
+    <string name="save_success">Save success.</string>
+    <string name="operation_canceled">Operation cancelled</string>
+    <string name="exception">Exception</string>
+    <string name="confirm_overwrite">The file exists are you sure you want to overwrite it?</string>
+    <string name="open_a_file_before">Open a file before!</string>
+    <string name="file_manager_keyword">File manager</string>
+    <string name="select_file_to_open">Select a file to open.</string>
+    <string name="error_no_file_manager">Please install a File Manager.</string>
+    <string name="install">INSTALL</string>
+    <string name="please_open_file">Please open a file</string>
+    <string name="uri_exception">Uri exception</string>
+    <string name="source">Source:</string>
+    <string name="result">Result:</string>
+
+    <string name="zero" translatable="false">0</string>
+    <string name="content_description_undo" translatable="false">Undo</string>
+    <string name="content_description_redo" translatable="false">Redo</string>
+    <string name="default_abbreviate_portrait" translatable="false">8</string>
+    <string name="default_abbreviate_landscape" translatable="false">16</string>
+    <string name="default_hex_display_data_portrait" translatable="false">true</string>
+    <string name="default_hex_row_height_auto_portrait" translatable="false">true</string>
+    <string name="default_hex_row_height_portrait" translatable="false">100</string>
+    <string name="default_hex_font_size_portrait" translatable="false">9</string>
+    <string name="default_hex_display_data_landscape" translatable="false">true</string>
+    <string name="default_hex_row_height_auto_landscape" translatable="false">true</string>
+    <string name="default_hex_row_height_landscape" translatable="false">100</string>
+    <string name="default_hex_font_size_landscape" translatable="false">16</string>
+    <string name="default_hex_display_data_portrait_lines_numbers" translatable="false">false</string>
+    <string name="default_hex_row_height_auto_portrait_lines_numbers" translatable="false">true</string>
+    <string name="default_hex_row_height_portrait_lines_numbers" translatable="false">100</string>
+    <string name="default_hex_font_size_portrait_lines_numbers" translatable="false">11</string>
+    <string name="default_hex_display_data_landscape_lines_numbers" translatable="false">true</string>
+    <string name="default_hex_row_height_auto_landscape_lines_numbers" translatable="false">true</string>
+    <string name="default_hex_row_height_landscape_lines_numbers" translatable="false">100</string>
+    <string name="default_hex_font_size_landscape_lines_numbers" translatable="false">16</string>
+    <string name="default_plain_row_height_auto_portrait" translatable="false">true</string>
+    <string name="default_plain_row_height_portrait" translatable="false">100</string>
+    <string name="default_plain_font_size_portrait" translatable="false">12</string>
+    <string name="default_plain_row_height_auto_landscape" translatable="false">true</string>
+    <string name="default_plain_row_height_landscape" translatable="false">100</string>
+    <string name="default_plain_font_size_landscape" translatable="false">16</string>
+    <string name="default_smart_input" translatable="false">false</string>
+    <string name="default_lines_number" translatable="false">true</string>
+    <string name="title_content" translatable="false">00 01 02 03 04 05 06 07 08 09 0A 0B 0C 0D 0E 0F</string>
+    <string name="title_content8" translatable="false">00 01 02 03 04 05 06 07</string>
+    <string name="default_nb_bytes_per_line" translatable="false">16</string>
+
+    <string name="default_overwrite" translatable="false">false</string>
+    <string name="default_screen_orientation" translatable="false">SCREEN_ORIENTATION_UNSPECIFIED</string>
+
+    <string name="new_value">New value</string>
+    <string name="error_less_than">The value cannot be less than</string>
+    <string name="error_greater_than">The value cannot be greater than</string>
+    <string name="settings_pref_category_portrait">Portrait mode</string>
+    <string name="settings_pref_title_abbreviate_portrait">Abbreviate</string>
+    <string name="settings_pref_summary_abbreviate_portrait">The number of characters to display for the file name in portrait mode.</string>
+    <string name="settings_pref_title_lists_portrait">Height, Font size &#8230;</string>
+    <string name="settings_pref_summary_lists_portrait">Click to edit</string>
+    <string name="settings_pref_category_landscape">Landscape mode</string>
+    <string name="settings_pref_title_abbreviate_landscape">Abbreviate</string>
+    <string name="settings_pref_summary_abbreviate_landscape">The number of characters to display for the file name in landscape mode.</string>
+    <string name="settings_pref_title_lists_landscape">Height, Font size &#8230;</string>
+    <string name="settings_pref_summary_lists_landscape">Click to edit</string>
+    <string name="settings_category_hex">Text in hexadecimal (without line numbers)</string>
+    <string name="settings_category_hex_line_numbers">Text in hexadecimal (with line numbers)</string>
+    <string name="settings_category_plain">Plain text</string>
+    <string name="settings_pref_title_display_data">Display of data column</string>
+    <string name="settings_pref_summary_display_data">Display the data column when displaying text in hexadecimal.</string>
+    <string name="settings_pref_title_row_height_auto">Automatic height</string>
+    <string name="settings_pref_summary_row_height_auto">Automatically determines height based on font size.</string>
+    <string name="settings_pref_title_row_height">Height</string>
+    <string name="settings_pref_summary_row_height">Height of the row in the list.</string>
+    <string name="settings_pref_title_font_size">Font size</string>
+    <string name="settings_pref_summary_font_size">Font size of the texts in the list.</string>
+    <string name="settings_category_about">About</string>
+    <string name="settings_pref_title_version">Version</string>
+    <string name="settings_pref_title_license">License</string>
+    <string name="settings_pref_summary_license" translatable="false">GPLv3</string>
+    <string name="settings_category_general">General</string>
+    <string name="settings_pref_title_language">Language</string>
+    <string name="settings_pref_summary_language">Change the language of the application.</string>
+    <string name="settings_pref_title_screen_orientation">Screen orientation</string>
+    <string name="settings_pref_summary_screen_orientation">Configures the default screen orientation (main screen only).</string>
+    <string name="settings_pref_title_nb_bytes">Number of bytes to display in one line</string>
+    <string name="settings_pref_summary_nb_bytes">The number of bytes to display per line (8 or 16). Note that displaying 8 bytes greatly increases memory consumption.</string>
+    <string name="error_file_open">It\'s not possible to change the mode when a file is open.</string>
+    <string name="smart_input">Plain text input</string>
+    <string name="error_file_not_found">The file %1$s was not found</string>
+    <string name="error_file_permission">No permission has been granted for file %1$s</string>
+    <string name="items_selected">%1$d Selected</string>
+    <string name="confirm_save">Save file "%1$s"?</string>
+    <string name="control_language_change">Please save your work first.</string>
+    <string name="overwrite">Insert mode</string>
+    <string name="size">Size</string>
+    <string name="unit_byte">B</string>
+    <string name="unit_kbyte">kB</string>
+    <string name="unit_mbyte">MB</string>
+    <string name="unit_gbyte">GB</string>
+    <string name="hexadecimal">hexadecimal</string>
+    <string name="decimal">decimal</string>
+    <string name="error_title">Error</string>
+    <string name="error_no_line_selected">No line was selected</string>
+    <string name="error_edition_search_in_progress">Line editing is not possible when a search is in progress.</string>
+    <string name="error_edition_continuous_selection">Line editing is only possible with a continuous selection.</string>
+</resources>

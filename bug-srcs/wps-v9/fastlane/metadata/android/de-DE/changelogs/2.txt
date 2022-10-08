@@ -1,0 +1,2 @@
+## 2
+  * Fehlerbehebung: ausschalten anstelle von neustarten

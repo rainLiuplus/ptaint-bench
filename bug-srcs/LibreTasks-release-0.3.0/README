@@ -1,0 +1,36 @@
+                            LibreTasks - Read Me
+
+LibreTasks is a fork of Omnidroid http://code.google.com/p/omnidroid with new features.
+
+      ==== TABLE OF CONTENTS ====
+
+  I. INSTALL
+ II. DEVELOPING
+III. MORE INFORMATION
+
+
+I. INSTALL (Coming soon)
+
+    Download from Fdroid!
+
+II. DEVELOPING
+
+    For setup development environment and install Omnidroid see:
+    http://code.google.com/p/omnidroid/wiki/SetUpDevEnvironment
+
+    Style Guide see: http://code.google.com/p/omnidroid/wiki/StyleGuide
+
+    Contributing Code:
+        All code must comply with the "Style Guidelines".
+        Patches should be submitted to the mailing list in unified diff format.
+
+    Design Overview see: http://code.google.com/p/omnidroid/wiki/DesignOverview
+
+
+III. MORE INFORMATION
+
+   License: GPL v3
+   Forked from a project under the following license: Apache 2.0 License
+   Website: https://github.com/biotinker/LibreTasks
+   MailingLists: See Website
+   Maintainers: See Website

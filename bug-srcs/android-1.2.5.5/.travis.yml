@@ -1,0 +1,17 @@
+language: android
+jdk:
+    - oraclejdk8
+android:
+  components:
+    - tools
+    - build-tools-26.0.2
+    - platform-tools
+    - android-26
+    - mExtra-android-m2repository
+
+script: ./gradlew -Dorg.gradle.jvmargs=-Xmx1536m assembleDebug lintDebug testDebugUnitTest
+
+licenses:
+  - '.+'
+
+

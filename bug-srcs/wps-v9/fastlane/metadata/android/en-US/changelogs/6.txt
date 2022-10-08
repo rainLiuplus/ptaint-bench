@@ -1,0 +1,2 @@
+## 6
+  * Show time of the last wrong PIN and last shutdown

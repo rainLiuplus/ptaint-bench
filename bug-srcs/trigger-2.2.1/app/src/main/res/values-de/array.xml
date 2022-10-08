@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="SetupTypeNames">
+        <item>HTTPS Tür</item>
+        <item>SSH Tür</item>
+        <item>MQTT Tür</item>
+        <item>Bluetooth Tür</item>
+    </string-array>
+    <string-array name="KeypairStrengths">
+        <item>Schwach (1024 bit)</item>
+        <item>Stark (2048 bit)</item>
+        <item>Sehr Stark (4096 bit)</item>
+    </string-array>
+</resources>
